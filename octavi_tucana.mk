@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tucana device
 $(call inherit-product, device/xiaomi/tucana/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Octavi stuff.
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_tucana
+PRODUCT_NAME := octavi_tucana
 PRODUCT_DEVICE := tucana
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Note 10
@@ -23,7 +23,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="tucana-user 11 RKQ1.200826.002 V12.5.4.0.RFDMIXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/tucana/tucana:11/RKQ1.200826.002/V12.5.4.0.RFDMIXM:user/release-keys
+# OctaviOS stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
+TARGET_WANTS_FOD_ANIMATIONS := true
+USE_PIXEL_CHARGER := true
+OCTAVI_BUILD_TYPE := Official
+OCTAVI_DEVICE_MAINTAINER := erikdrozina
