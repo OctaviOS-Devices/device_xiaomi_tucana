@@ -1,0 +1,32 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "OctaviOS-Devices/device_xiaomi_sm6150-common",
+        "target_path":  "device/xiaomi/sm6150-common",
+        "revision":     "12"
+    },
+    {
+        "remote":       "github",
+        "repository":   "OctaviOS-Devices/kernel_xiaomi_tucana",
+        "target_path":  "kernel/xiaomi/sm6150",
+        "revision":     "12"
+    },
+    {
+        "remote":       "github",
+        "repository":   "erikdrozina/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "12"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "erikdrozina/vendor_xiaomi_sm6150-common",
+        "target_path":  "vendor/xiaomi/sm6150-common",
+        "revision":     "12"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "erikdrozina/vendor_xiaomi_tucana",
+        "target_path":  "vendor/xiaomi/tucana",
+        "revision":     "12"
+    }
+]  
