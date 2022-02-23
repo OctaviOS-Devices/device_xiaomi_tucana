@@ -1,4 +1,6 @@
 # Octavi-OS
-ro.octavi.status=3.3 OFFICIAL
+ro.octavi.status=3.4 OFFICIAL
 ro.octavi.maintainer=Erikdrozina
-ro.octavi.display.pid=1544424 
+ro.octavi.hw.cam=108MP,12MP,8MP,20MP,2MP:32MP
+ro.octavi.hw.cpu=Snapdragon 730G
+ro.octavi.display.pid=1544424
